@@ -4,181 +4,42 @@
 <meta name="theme-color" content="red">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-* {box-sizing: border-box}
-
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
-
-/* Style tab links */
-.tablink {
-  background-color: black;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 20%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Noor {background-color: red;background-image: url(img1.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#Haider {background-color: green;}
-#Esha {background-color: pink;}
-#Mom {background-color: orange;}
-#Dad {background-color: purple;}
-
-
-@media print {
-  h1 {page-break-before: always;}
-}
-
-.noortitle {
-	position: relative;
-	font-variant: small-caps;
-	font-size: 60px;
-	color: #316ccc;
-}
-
-a {
-	text-decoration: none;
-	color: #fff;
-	
-}
-
-a:hover {
-	text-decoration: none;
-}
-
-
-div.fixed2 {
-	position: fixed;
-	right: 130px;
-	top:200px;
-	z-index: 10;
-}
-
-#mySidenav2 a {
-    position: absolute;
-    right: -120px;
-    transition: 0.5s;
-    text-decoration: none;
-    font-size: 18px;
-    text-align: left;
-    color: white;
-    border-radius: 20px 20px 20px 20px;
-	box-shadow: 0 0 6pt 4pt white;
-	text-shadow: 2pt 4pt 3pt white;
-}
-
-#mySidenav2 a:hover {
-    right: -110px;
-	font-size: 20px;
-	box-shadow: 0 0 6pt 4pt black;
-	z-index: 11;
-}
-
-
-#Linkedin2 {
-    top: 5px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Instagram2 {
-    top: 60px;
-	background-repeat: no-repeat;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Facebook2 {
-    top: 115px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Email2 {
-    top: 170px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Twitter2 {
-	top:225px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Skype2 {
-	top:280px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-
-
-</style>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Noor', this, 'red'); testmeta1()" id="defaultOpen">Noor</button>
-<button class="tablink" onclick="openPage('Haider', this, 'green'); testmeta2()">Haider</button>
-<button class="tablink" onclick="openPage('Esha', this, 'pink'); testmeta3()">Esha</button>
-<button class="tablink" onclick="openPage('Mom', this, 'orange'); testmeta4()">Mom</button>
-<button class="tablink" onclick="openPage('Dad', this, 'purple'); testmeta5()">Dad</button>
+<button class="tablink" onclick="openPage('about', this, 'red'); testmeta1()" id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('technical', this, 'green'); testmeta2()">technical</button>
+<button class="tablink" onclick="openPage('projects', this, 'purple'); testmeta3()">projects</button>
+<button class="tablink" onclick="openPage('hobby', this, 'orange'); testmeta4()">hobbies</button>
 
-<div id="Noor" class="tabcontent">
+<div id="about" class="tabcontent">
   <div class="w3-display-middle w3-text-white w3-center">
 <div class="container">
-<div class="noortitle" style="text-shadow: 2pt 1pt 2pt white; !important;"><center><b>Mahnoor Khan</b></center></div>
+<div class="nametitle" style="text-shadow: 2pt 1pt 2pt white; !important;"><center><b>Adil Khan</b></center></div>
 </br>
 </div>
 
 <div class="container" style="top:300px">
 
-<center><p><b><font size="4" color="white">Hello, My name is Mahnoor Khan. Thank you for visiting my page.</font></b></p></center>
+<center><p><b><font size="4" color="white">Hello, My name is Adil Khan. Thank you for visiting my page.</font></b></p></center>
 <center><button onclick="overlay()"  style="visibility: hidden;">Red Overlay</button></center>
 </div>
 </div>
 </div>
 
-<div id="Haider" class="tabcontent">
-  <h3>Haider</h3>
-  <p>Haider mujhe sabse pyara lgta hai.</p> 
+<div id="technical" class="tabcontent">
+
 </div>
 
-<div id="Esha" class="tabcontent">
-  <h3>Esha</h3>
-  <p>Esha is sweet.</p>
+<div id="projects" class="tabcontent">
+
 </div>
 
-<div id="Mom" class="tabcontent">
-  <h3>Mom</h3>
-  <p>The best mom in the world.</p>
+<div id="hobby" class="tabcontent">
+
 </div>
 
-<div id="Dad" class="tabcontent">
-  <h3>Dad</h3>
-  <p>Love of my life. My dad.</p>
-</div>
 
 <div class="fixed2">
 <div id="mySidenav2" class="sidenav2">
@@ -220,7 +81,7 @@ document.getElementsByTagName("META")[0].content = "green";
 }
 
 function testmeta3(){
-document.getElementsByTagName("META")[0].content = "pink";
+document.getElementsByTagName("META")[0].content = "purple";
 }
 
 
@@ -228,9 +89,6 @@ function testmeta4(){
 document.getElementsByTagName("META")[0].content = "orange";
 }
 
-function testmeta5(){
-document.getElementsByTagName("META")[0].content = "purple";
-}
 
 
 </script>

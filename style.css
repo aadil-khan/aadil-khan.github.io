@@ -1,0 +1,126 @@
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: black;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#about {background-color: red;background-image: url(img1.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+#technical {background-color: green;}
+#projects {background-color: purple;}
+#hobby {background-color: orange;}
+
+
+@media print {
+  h1 {page-break-before: always;}
+}
+
+.nametitle {
+	position: relative;
+	font-variant: small-caps;
+	font-size: 60px;
+	color: #316ccc;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+div.fixed2 {
+	position: fixed;
+	right: 130px;
+	top:200px;
+	z-index: 10;
+}
+
+#mySidenav2 a {
+    position: absolute;
+    right: -120px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 6pt 4pt white;
+	text-shadow: 2pt 4pt 3pt white;
+}
+
+#mySidenav2 a:hover {
+    right: -110px;
+	font-size: 20px;
+	box-shadow: 0 0 6pt 4pt black;
+	z-index: 11;
+}
+
+
+#Linkedin2 {
+    top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Instagram2 {
+    top: 60px;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Facebook2 {
+    top: 115px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Email2 {
+    top: 170px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Twitter2 {
+	top:225px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Skype2 {
+	top:280px;
+	font-size: 12px;
+	font-weight: bold;
+}
