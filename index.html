@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="theme-color" content="red">
+<meta name="theme-color" content="#0a464a">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('about', this, 'red'); testmeta1()" id="defaultOpen">About Me</button>
-<button class="tablink" onclick="openPage('technical', this, 'green'); testmeta2()">technical</button>
-<button class="tablink" onclick="openPage('projects', this, 'purple'); testmeta3()">projects</button>
-<button class="tablink" onclick="openPage('hobby', this, 'orange'); testmeta4()">hobbies</button>
+<button class="tablink" onclick="openPage('about', this, '#0a464a'); testmeta1()" id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('technical', this, '#033604'); testmeta2()">technical</button>
+<button class="tablink" onclick="openPage('projects', this, '#431552'); testmeta3()">projects</button>
+<button class="tablink" onclick="openPage('hobby', this, '#693505'); testmeta4()">hobbies</button>
 
 <div id="about" class="tabcontent">
   <div class="w3-display-middle w3-text-white w3-center">
@@ -23,7 +23,7 @@
 <div class="container" style="top:300px">
 
 <center><p><b><font size="4" color="white">Hello, My name is Adil Khan. Thank you for visiting my page.</font></b></p></center>
-<center><button onclick="overlay()"  style="visibility: hidden;">Red Overlay</button></center>
+<center><button onclick="overlay()"  style="visibility: hidden;">#0a464a Overlay</button></center>
 </div>
 </div>
 </div>
@@ -45,10 +45,7 @@
 <div id="mySidenav2" class="sidenav2">
 <a href="" target="_blank" onClick="window.open('http','linkedin2','resizable,height=600,width=800'); return false;" id="Linkedin2"><img src="linkedin.png" height="50" width="50"></a>
 <a href="" target="_blank" onClick="window.open('','instagram2','resizable,height=600,width=800'); return false;" id="Instagram2"><img src="instagram.png" height="50" width="50"></a>
-<a href="" target="_blank" onClick="window.open('','facebook2','resizable,height=600,width=800'); return false;" id="Facebook2"><img src="facebook.png" height="50" width="50"></a>
 <a href="" id="Email2"><img src="email.png" height="50" width="50"></a>
-<a href="" target="_blank" onClick="window.open('','twitter2','resizable,height=600,width=800'); return false;" id="Twitter2"><img src="twitter.png" height="50" width="50"></a>
-<a href="" target="_blank" onClick="window.open('','skype2','resizable,height=600,width=800'); return false;" id="Skype2"><img src="skype.png" height="50" width="50"></a>
 </div>
 </div>
 
@@ -73,20 +70,20 @@ function openPage(pageName,elmnt,color) {
 document.getElementById("defaultOpen").click();
 
 function testmeta1(){
-document.getElementsByTagName("META")[0].content = "red";
+document.getElementsByTagName("META")[0].content = "#0a464a";
 }
 
 function testmeta2(){
-document.getElementsByTagName("META")[0].content = "green";
+document.getElementsByTagName("META")[0].content = "#033604";
 }
 
 function testmeta3(){
-document.getElementsByTagName("META")[0].content = "purple";
+document.getElementsByTagName("META")[0].content = "#431552";
 }
 
 
 function testmeta4(){
-document.getElementsByTagName("META")[0].content = "orange";
+document.getElementsByTagName("META")[0].content = "#693505";
 }
 
 

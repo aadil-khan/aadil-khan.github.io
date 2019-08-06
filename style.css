@@ -32,10 +32,10 @@ body, html {
   height: 100%;
 }
 
-#about {background-color: red;background-image: url(img1.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#technical {background-color: green;}
-#projects {background-color: purple;}
-#hobby {background-color: orange;}
+#about {background-color: #0a464a;background-image: url(img1.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+#technical {background-color: #033604;}
+#projects {background-color: #431552;}
+#hobby {background-color: #693505;}
 
 
 @media print {
@@ -101,26 +101,11 @@ div.fixed2 {
 	font-weight: bold;
 }
 
-#Facebook2 {
+
+#Email2 {
     top: 115px;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Email2 {
-    top: 170px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Twitter2 {
-	top:225px;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Skype2 {
-	top:280px;
-	font-size: 12px;
-	font-weight: bold;
 }
