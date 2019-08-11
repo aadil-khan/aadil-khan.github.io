@@ -9,10 +9,10 @@
 </head>
 <body>
 
+
+<button class="tablink" onclick="openPage('projects', this, '#230026'); testmeta2()">Skills and Projects</button>
 <button class="tablink" onclick="openPage('about', this, '#DC7D2D'); testmeta1()" id="defaultOpen">About Me</button>
-<button class="tablink" onclick="openPage('technical', this, '#002604'); testmeta2()">technical</button>
-<button class="tablink" onclick="openPage('projects', this, '#230026'); testmeta3()">projects</button>
-<button class="tablink" onclick="openPage('hobby', this, '#693505'); testmeta4()">hobbies</button>
+<button class="tablink" onclick="openPage('resume', this, '#002604'); testmeta3()">Resume</button>
 
 <div id="about" class="tabcontent">
   <div class="w3-display-middle w3-text-white w3-center">
@@ -29,17 +29,14 @@
 </div>
 </div>
 
-<div id="technical" class="tabcontent">
-
-</div>
-
 <div id="projects" class="tabcontent">
 
 </div>
 
-<div id="hobby" class="tabcontent">
+<div id="resume" class="tabcontent">
 
 </div>
+
 
 
 <div class="fixed2">
@@ -75,16 +72,11 @@ document.getElementsByTagName("META")[0].content = "#DC7D2D";
 }
 
 function testmeta2(){
-document.getElementsByTagName("META")[0].content = "#002604";
-}
-
-function testmeta3(){
 document.getElementsByTagName("META")[0].content = "#230026";
 }
 
-
-function testmeta4(){
-document.getElementsByTagName("META")[0].content = "#693505";
+function testmeta3(){
+document.getElementsByTagName("META")[0].content = "#002604";
 }
 
 

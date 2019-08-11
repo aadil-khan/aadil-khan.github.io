@@ -17,7 +17,7 @@ body, html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 33.33%;
 }
 
 .tablink:hover {
@@ -32,11 +32,12 @@ body, html {
 }
 
 #about {background-color: #DC7D2D;background-image: url(img12.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#technical {background-color: #002604;}
 #projects {background-color: #230026;}
-#hobby {background-color: #693505;}
+#resume {background-color: #002604;}
 
-
+@media only screen and (min-width: 768px) {
+	#about {background-color: #DC7D2D;background-image: url(img12a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+}
 
 .nametitle {
 	position: relative;
@@ -102,8 +103,4 @@ div.fixed2 {
     top: 115px;
 	font-size: 12px;
 	font-weight: bold;
-}
-
-@media only screen and (min-width: 768px) {
-	#about {background-color: #DC7D2D;background-image: url(img12a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 }
