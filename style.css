@@ -31,12 +31,15 @@ body, html {
   height: 100%;
 }
 
-#about {background-color: #DC7D2D;background-image: url(img12.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#projects {background-color: #230026;}
-#resume {background-color: #002604;}
+#about {background-color: #DC7D2D;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+#projects {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+#resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 
 @media only screen and (min-width: 768px) {
-	#about {background-color: #DC7D2D;background-image: url(img12a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#about {background-color: #DC7D2D;background-image: url(img4a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#projects {background-color: #54DFF4;background-image: url(img16a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#resume {background-color: #95CC3B;background-image: url(img11a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#intro{top: 200px; !important}
 }
 
 .nametitle {
@@ -59,18 +62,18 @@ a:hover {
 
 div.fixed2 {
 	position: fixed;
-	right: 130px;
-	top:200px;
+	right: 10px;
+	bottom:10px;
 	z-index: 10;
 }
 
 #mySidenav2 a {
     position: absolute;
-    right: -120px;
+    bottom: 10px;
     transition: 0.5s;
     text-decoration: none;
     font-size: 18px;
-    text-align: left;
+    text-align: bottom;
     color: white;
     border-radius: 20px 20px 20px 20px;
 	box-shadow: 0 0 6pt 4pt black;
@@ -78,7 +81,7 @@ div.fixed2 {
 }
 
 #mySidenav2 a:hover {
-    right: -110px;
+    bottom: 12px;
 	font-size: 20px;
 	box-shadow: 0 0 6pt 4pt white;
 	z-index: 11;
@@ -86,13 +89,13 @@ div.fixed2 {
 
 
 #Linkedin2 {
-    top: 5px;
+    right: 5px;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 #Instagram2 {
-    top: 60px;
+    right: 60px;
 	background-repeat: no-repeat;
 	font-size: 12px;
 	font-weight: bold;
@@ -100,7 +103,7 @@ div.fixed2 {
 
 
 #Email2 {
-    top: 115px;
+    right: 115px;
 	font-size: 12px;
 	font-weight: bold;
 }
