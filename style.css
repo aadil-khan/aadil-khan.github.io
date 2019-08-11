@@ -37,9 +37,6 @@ body, html {
 #hobby {background-color: #693505;}
 
 
-@media print {
-  h1 {page-break-before: always;}
-}
 
 .nametitle {
 	position: relative;
@@ -107,4 +104,6 @@ div.fixed2 {
 	font-weight: bold;
 }
 
+@media only screen and (min-width: 768px) {
+	#about {background-color: #8EDB29;background-image: url(img13a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 }
