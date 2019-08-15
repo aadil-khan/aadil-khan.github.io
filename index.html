@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="theme-color" content="#DC7D2D">
+<meta name="theme-color" content="black">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -23,9 +23,25 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-</head>
-<body>
 
+
+<script>
+function loaded(){
+document.getElementById("loader").style.display = "none";
+document.getElementsByTagName("META")[0].content = "#DC7D2D";
+
+}
+</script>
+<script>
+function slowbrowsercall() {
+  setTimeout(function(){ document.getElementById("slowbrowser").innerHTML="Please wait while the page loads" }, 2000);
+  setTimeout(function(){ document.getElementById("slowbrowser").innerHTML="Slow internet connectivity detected. Please wait few more seconds. Thanks for your patience." }, 7000);
+  }
+</script>
+
+</head>
+<body onload="loaded()">
+<div id="loader" style="height:100%;width:100%;background-color: black;color:red;z-index:99;background-position: center;position: fixed;"><center></br></br></br></br></br></br></br><p style="color:#10bac9; font-size:40px; text-shadow: 1pt 1pt 1pt white; !important;"><b>Welcome to my profile</b></p><img src="loading0.gif" onload="slowbrowsercall()" style=" z-index:100;vertical-align:middle; "><p id="slowbrowser"></p></center></div>
 
 <button class="tablink" onclick="openPage('projects', this, '#54DFF4'); testmeta2()">Projects</button>
 <button class="tablink" onclick="openPage('about', this, '#DC7D2D'); testmeta1()" id="defaultOpen">About Me</button>
@@ -40,13 +56,131 @@
 
 <div class="container">
 
-<center><p><b><font size="4" color="white">I am Adil Khan working as Robotic Process Automation Developer with IBM India Pvt Ltd since January 2015. I am an Electronics and Communication Engineer. I have Masters in Robotic Process Automation Development using Automation Anywhere tool. I also have experience working with UiPath and basic knowledge of Blueprism I have worked on Web Development projects within the organisation, with expertise on front end development and primarily work as front end designer.</font></b></p></center>
+<center><p><b><font size="4" color="white">I am Adil Khan working as Robotic Process Automation Developer with IBM India Pvt Ltd since January 2015. I have bachelor's degree in Electronics and Communication Engineering with Masters in Robotic Process Automation Development using Automation Anywhere. I also have experience working with UiPath and basic knowledge of Blueprism. I have worked on Web Development projects within the organisation, with expertise on front end development and primarily work as front end designer and Graphic designer.</font></b></p></center>
 </div>
 </div>
 </div>
 
 
 <div id="projects" class="tabcontent">
+
+
+
+<div class="container">
+<div id="techprof" style="background: rgba(28, 28, 28, 0.5); color: white; padding-top: 15px; padding-bottom: 15px;"; class="jumbotron">
+<h1 style="margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;"><b>Technical Proficiency</b></h1>
+
+
+<div class="container mt-3">
+<div class="media p-3">
+
+<img src="automation3.gif" alt="image" class=" align-self-center mr-3" style="width:40px;">
+    <div class="media-body align-self-center">
+    <h4>Automation Anywhere</h4>
+    </div>
+
+<img src="automation3.gif" alt="image" class=" align-self-center mr-3" style="width:40px;">
+    <div class="media-body align-self-center">
+    <h4>UiPath</h4>
+    </div>
+	
+<img src="automation3.gif" alt="image" class=" align-self-center mr-3" style="width:40px;">
+    <div class="media-body align-self-center">
+    <h4>BluePrism</h4>
+    </div>
+</div>
+</div>
+
+
+
+<div class="container mt-3">
+<div class="media p-3">
+
+<img src="database.png" alt="image" class="align-self-center mr-3" style="width:40px;">
+    <div class="media-body align-self-center">
+    <h4>MSSQL DB</h4>
+    </div>
+
+<img src="database.png" alt="image" class="align-self-center mr-3" style="width:40px;">
+    <div class="media-body align-self-center">
+    <h4>MS Access DB</h4>
+    </div>
+	
+<img src="database.png" alt="image" class="align-self-center mr-3" style="width:40px;">
+    <div class="media-body align-self-center">
+    <h4>REST API</h4>
+    </div>
+</div>
+</div>
+
+
+<div class="container mt-3">
+<div class="media p-3">
+
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>HTML</h4>
+    </div>
+
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>CSS</h4>
+    </div>
+	
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>JavaScript</h4>
+    </div>
+</div>
+</div>
+
+
+<div class="container mt-3">
+<div class="media p-3">
+
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>Bootstrap</h4>
+    </div>
+
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>AngularJS</h4>
+    </div>
+	
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>jQuery</h4>
+    </div>
+</div>
+</div>
+
+
+<div class="container mt-3">
+<div class="media p-3">
+
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>VB Script</h4>
+    </div>
+
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>PHP</h4>
+    </div>
+	
+<img src="dev0.gif" alt="image" class="align-self-center mr-3" style="width:45px;">
+    <div class="media-body align-self-center">
+    <h4>C, C++</h4>
+    </div>
+</div>
+</div>
+
+
+</div>
+</div>
+
+
 
 </div>
 
@@ -66,9 +200,9 @@
 
 <div class="fixed2">
 <div id="mySidenav2" class="sidenav2">
-<a href="" target="_blank" onClick="window.open('http','linkedin2','resizable,height=600,width=800'); return false;" id="Linkedin2"><img src="linkedin.png" height="50" width="50"></a>
-<a href="" target="_blank" onClick="window.open('','instagram2','resizable,height=600,width=800'); return false;" id="Instagram2"><img src="instagram.png" height="50" width="50"></a>
-<a href="" id="Email2"><img src="email.png" height="50" width="50"></a>
+<a href="https://www.linkedin.com/in/adil-khan-b373a6174/" target="_blank" onClick="window.open('https://www.linkedin.com/in/adil-khan-b373a6174/','linkedin2','resizable,height=600,width=800,top=120,left=600'); return false;" id="Linkedin2"><img src="linkedin.png" height="50" width="50"></a>
+<a href="https://instagram.com/whoadil" target="_blank" onClick="window.open('https://instagram.com/whoadil','instagram2','resizable,height=600,width=800,top=120,left=600'); return false;" id="Instagram2"><img src="instagram.png" height="50" width="50"></a>
+<a href="mailto:adilkhan@programmer.net?Subject=Looking forward to working with you" id="Email2"><img src="email.png" height="50" width="50"></a>
 </div>
 </div>
 
