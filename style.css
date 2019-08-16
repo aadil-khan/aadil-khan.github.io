@@ -32,13 +32,13 @@ body, html {
 }
 
 #about {background-color: #DC7D2D;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#projects {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+#Skills {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 #resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 #intro {margin-top:-10px;}
 
 @media screen and (min-width: 768px) {
 	#about {background-color: #DC7D2D;background-image: url(img4a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-	#projects {background-color: #54DFF4;background-image: url(img16a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#Skills {background-color: #54DFF4;background-image: url(img16a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#resume {background-color: #95CC3B;background-image: url(img11a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#intro {margin-top:180px;}
 }
@@ -63,7 +63,7 @@ a:hover {
 div.fixed2 {
 	position: fixed;
 	right: 10px;
-	bottom:10px;
+	bottom:0px;
 	z-index: 10;
 }
 
