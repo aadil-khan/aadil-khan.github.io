@@ -49,20 +49,20 @@ function slowbrowsercall() {
 <body onload="loaded()">
 <div id="loader" style="height:100%;width:100%;background-color: black;color:red;z-index:99;background-position: center;position: fixed;"><center></br></br></br></br></br></br></br><p style="color:#10bac9; font-size:40px; text-shadow: 1pt 1pt 1pt white; !important;"><b>Welcome to my profile</b></p><img src="loading0.gif" onload="slowbrowsercall()" style="height:150px;width:150px; z-index:100;vertical-align:middle; "><p id="slowbrowser"></p></center></div>
 
-<button class="tablink" onclick="openPage('Skills', this, '#54DFF4'); testmeta2()">Skills</button>
-<button class="tablink" onclick="openPage('about', this, '#D87531'); testmeta1()" id="defaultOpen">About Me</button>
-<button class="tablink" onclick="openPage('resume', this, '#95CC3B'); testmeta3()">Resume</button>
+<button class="tablink" onclick="openPage('Skills', this, '#54DFF4'); skillsmeta()">Skills</button>
+<button class="tablink" onclick="openPage('about', this, '#D87531'); aboutmeta()" id="defaultOpen">About Me</button>
+<button class="tablink" onclick="openPage('resume', this, '#95CC3B'); resumemeta()">Resume</button>
 
 <div id="about" class="tabcontent">
 <div id="intro" style="background: rgba(28, 28, 28, 0.5); margin-bottom: 10px; color: white; padding-top: 15px; padding-bottom: 25px;" class="jumbotron">
 <div class="container">
-<div class="nametitle" style="text-shadow: 2pt 1pt 2pt white; !important;"><center><b>Adil Khan</b></center></div>
+<div id="nametitle" style="text-shadow: 2pt 1pt 2pt white; !important;"><center><b>Adil Khan</b></center></div>
 </br>
 </div>
 
 <div class="container">
 
-<center><p><b><font size="4" color="white">I am Adil Khan working as Robotic Process Automation Developer with IBM India Pvt Ltd since January 2015. I have bachelor's degree in Electronics and Communication Engineering with Masters in Robotic Process Automation Development using Automation Anywhere. I also have experience working with UiPath and basic knowledge of Blueprism. I have worked on Web Development projects within the organisation, with expertise on front end development and primarily work as front end designer and Graphic designer.</font></b></p></center>
+<center><p><b>I am Adil Khan working as Robotic Process Automation Developer with IBM India Pvt Ltd since January 2015. I have bachelor's degree in Electronics and Communication Engineering with Masters in Robotic Process Automation Development using Automation Anywhere. I also have experience working with UiPath and basic knowledge of Blueprism. I have worked on Web Development projects within the organisation, with expertise on front end development and primarily work as front end designer and Graphic designer.</b></p></center>
 </div>
 </div>
 </div>
@@ -72,13 +72,13 @@ function slowbrowsercall() {
 
 <div id="intro" style="background: rgba(28, 28, 28, 0.5); margin-bottom: 10px; color: white; padding-top: 15px; padding-bottom: 25px;" class="jumbotron">
 <div class="container">
-<div class="nametitle" style="text-shadow: 2pt 1pt 2pt white; !important;"><center><b> Under Update</b></center></div>
+<div id="nametitle" style="text-shadow: 2pt 1pt 2pt white; !important;"><center><b> Under Update</b></center></div>
 </br>
 </div>
 
 <div class="container">
 
-<center><p><b><font size="4" color="white">Still under update..</font></b></p></center>
+<center><p><b>Still under update.</b></p></center>
 </div>
 </div>
 
@@ -131,15 +131,15 @@ function openPage(pageName,elmnt,color) {
 // Get the element with id="defaultOpen" and click on it
 
 
-function testmeta1(){
+function aboutmeta(){
 document.getElementsByTagName("META")[0].content = "#D87531";
 }
 
-function testmeta2(){
+function skillsmeta(){
 document.getElementsByTagName("META")[0].content = "#54DFF4";
 }
 
-function testmeta3(){
+function resumemeta(){
 document.getElementsByTagName("META")[0].content = "#95CC3B";
 }
 

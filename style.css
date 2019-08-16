@@ -34,21 +34,26 @@ body, html {
 #about {background-color: #D87531;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 #Skills {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 #resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#intro {margin-top:-10px;}
+#intro {margin-top:-10px;font-size:15px;}
 
 @media screen and (min-width: 768px) {
 	#about {background-color: #D87531;background-image: url(img4a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#Skills {background-color: #54DFF4;background-image: url(img16a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#resume {background-color: #95CC3B;background-image: url(img11a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-	#intro {margin-top:180px;}
+	#intro {margin-top:5%;font-size:25px;}
 }
-.nametitle {
+
+#nametitle {
 	position: relative;
 	font-variant: small-caps;
-	font-size: 60px;
+	font-size: 25px;
 	color: #316ccc;
 }
 
+@media screen and (min-width: 768px) {
+	#nametitle {position: relative;font-variant: small-caps;font-size: 60px;color: #316ccc;}
+}
+	
 a {
 	text-decoration: none;
 	color: #fff;
