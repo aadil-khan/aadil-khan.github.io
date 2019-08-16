@@ -24,10 +24,6 @@ body, html {
   background-color: #777;
 }
 
-.tablink:active {
-  color: red;
-}
-
 .tabcontent {
   color: white;
   display: none;
