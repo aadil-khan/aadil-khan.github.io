@@ -34,7 +34,7 @@ body, html {
 #about {background-color: #D87531;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 #Skills {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 #resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
-#intro {margin-top:-15px;font-size:15px;}
+#intro {margin-top:-10px;font-size:15px;}
 #iframecontainer {margin-top:-10px;font-size:15px;}
 
 @media screen and (min-width: 768px) {
@@ -52,6 +52,16 @@ body, html {
 	#intro {margin-top:-15px;font-size:10px;}
 	#iframecontainer {margin-top:-15px;font-size:10px;}
 }
+
+
+@media screen and (max-width: 480px) {
+	#about {background-color: #D87531;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#Skills {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
+	#intro {margin-top:-10px;font-size:12px;}
+	#iframecontainer {margin-top:-10px;font-size:12px;}
+}
+
 
 #nametitle {
 	position: relative;
