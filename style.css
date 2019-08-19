@@ -145,3 +145,10 @@ div.fixed3 {
     height:600px;
    }
 }
+
+@media only screen and (max-width: 320px) {
+
+   #resume3 {
+    height:200px;
+   }
+}
