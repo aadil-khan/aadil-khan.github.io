@@ -54,7 +54,7 @@ body, html {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
 	#about {background-color: #D87531;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#Skills {background-color: #54DFF4;background-image: url(img16b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
