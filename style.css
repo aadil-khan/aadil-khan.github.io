@@ -37,13 +37,15 @@ body, html {
 #intro {margin-top:20%;font-size:15px;}
 #iframecontainer {margin-top:-10px;font-size:15px;}
 
+
+
 @media screen and (min-width: 768px) {
 	#about {background-color: #D87531;background-image: url(img4a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#Skills {background-color: #54DFF4;background-image: url(img16a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#resume {background-color: #95CC3B;background-image: url(img11a.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#intro {margin-top:5%;font-size:25px;}
 	#iframecontainer {margin-top:30px;font-size:18px;}
-}
+
 
 @media screen and (max-width: 320px) {
 	#about {background-color: #D87531;background-image: url(img4b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
@@ -51,6 +53,7 @@ body, html {
 	#resume {background-color: #95CC3B;background-image: url(img11b.jpg);background-attachment: fixed;background-position: center;background-size: cover;}
 	#intro {margin-top:-15px;font-size:10px;}
 	#iframecontainer {margin-top:-15px;font-size:10px;}
+
 }
 
 
@@ -86,6 +89,9 @@ body, html {
     height:200px;
    }
 }
+
+
+
 
 
 a {
